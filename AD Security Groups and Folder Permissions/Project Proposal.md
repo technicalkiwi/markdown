@@ -91,7 +91,7 @@ Write Powershell Script to periodically scan through Network Shares and export a
 
 7. Plan which Security Group to apply to each network share folder.
 
-8. Insure all Security Groups have been added onto folders.
+8. Ensure all Security Groups have been added onto folders.
 
 9. Test users getting access only through Security Groups.
 
