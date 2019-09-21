@@ -7,7 +7,6 @@
 * [Process](#process)
     - [Planning](#planning)
     - [Review](#review)
-    - [Implementation](#implementation)
 * [Milestones](#milestones)
 
 ## Overview
