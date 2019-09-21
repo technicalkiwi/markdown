@@ -54,7 +54,7 @@ Select a group of test users and remove their explicit permissions from network 
 Test if they still have the same access.  
 
 **Step 5**
-Remove a Minor departments (Loss Prevention) explict user persmissions from Network Shares.  
+Remove a Minor departments (Loss Prevention) explicit user permissions from Network Shares.  
 Test if they still have the same access
 
 **Step 6**  
