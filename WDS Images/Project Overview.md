@@ -46,7 +46,8 @@ Version: 1903
   - Adobe Reader
   - SAP GUI
   - Myagent
-  - Java 8
+  - 
+  - 
 
 
 ##### Installers loaded CC
