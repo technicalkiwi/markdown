@@ -36,7 +36,7 @@ Version: 1903
 ##### Installers loaded HO
   - Myportal
   - Cisco Anyconnect VPN
-  - 
+  - Symantec
 
 <br>
 
@@ -51,7 +51,8 @@ Version: 1903
 
 
 ##### Installers loaded CC
-
+  - Symantec
+  
 
 
 
