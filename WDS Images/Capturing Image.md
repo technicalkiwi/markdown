@@ -2,8 +2,9 @@
 
 - Prepare the OS
     - Remove old Snapshots
+	- Add in capture Disk
     - Clean Drive/Error Check
-    - Change Enviroment Version Value
+    - Change Enviroment Build Value
 
 ![Soe Environment Variable](./resources/ENV-SOE.png)
 <br>
