@@ -19,6 +19,7 @@ Language: English - NZ
 - My Agent
 - Adobe Reader
 - 7Zip
+- SAP GUI
 - Cute PDF Writer
 - LAPS
 	
