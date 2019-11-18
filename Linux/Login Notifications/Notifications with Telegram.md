@@ -25,13 +25,13 @@ Create a new bot by typing `/new bot`
 Fill in the bots name, and username (must end with bot)  
 The Botfather will reply with the bots API token  
 Take note of this Token as it is vital for the bots operation   
-![Botfather New bot](./images/botfather_botcreation.png)
+![Botfather New bot](./resources/botfather_botcreation.png)
 Go back and start a chat with your bot to initialize it  
 ### Notification setup
 Go to `https://api.telegram.org/bot$TOKEN/getUpdates`  
 Where `$Token` is the API key you received from Botfather  
 You should get something similar to the below  
-![Telegram Get Update](./images/telegram_bot_getupdate.png)
+![Telegram Get Update](./resources/telegram_bot_getupdate.png)
 Take note of the Chat ID, in this case 7654321  
 
 ### Sending Notifications
@@ -78,7 +78,7 @@ Save and Exit the File.
 
 Test By logging into the server via SSH
 You should recieve an alert on telgram
-![SSH Telegram Alert](./images/ssh_telegram_alert.jpg)
+![SSH Telegram Alert](./resources/ssh_telegram_alert.jpg)
 
 All Done
 You can also use this to alert about many other happpenings.
