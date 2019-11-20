@@ -33,15 +33,29 @@
 
 ## Base System Setup
 
-### Update local Repository
+#### Update local Repository
+Run Command `sudo apt update` to update local repository
 
-### Update Installed Applications
+#### Update Installed Applications
+Run Command `sudo apt update -y` to update all preintstalled applications
 
-### Install Base Applications
+#### Install Base Applications
+Install to basic application with `sudo apt install XXX` Where XXX is the package name
 
+Basic Packages include  
+ - Git
+ - SSH
+ - net-tools
+ - curl
+ - wget
+ - neofetch
 
 ## Application Setup
 
-### Setup Git
+#### Setup Git
 
-### Setup SSH
+#### Setup SSH
+
+#####  Edit SSH Config
+
+##### Add SSH Pubkey
