@@ -37,6 +37,7 @@ Create a new key pair on your local machine
 Copy the key to the server  
 `ssh-copy-id -i "path/to/pubkey user@hostname`  
 Test you can logon using the new key
+![Key Login Test](./resources/key_login.png)
 
 ##### Add Pubkey From Existing Keypair
 
@@ -49,7 +50,7 @@ Test connection using Key Based Authentication.
 ![Key Login Test](./resources/key_login.png)
 
 ##### Turn off Password based Authentication
-Once you have confirmed you can log in using the Key set the following in the SSH config file.  
+Once you have confirmed you can log in using the Key, set the following in the SSH config file.  
 `PasswordAuthentication no`
 `AuthenticationMethods publickey`
 
