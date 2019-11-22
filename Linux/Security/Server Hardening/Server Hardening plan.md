@@ -30,7 +30,7 @@ Check you can login via ssh with this new user
 ##### Setup Key Based Logon
 Create a new key pair on your local machine  
 `sudo ssh-keygen`  
-![ssh keygen image](/images/ssh_keygen.png)  
+![ssh keygen image](./resources/ssh_keygen.png)  
 Copy the key to the server  
 `ssh-copy-id -i "keyname" user@hostname`  
 Test you can logon using the new key

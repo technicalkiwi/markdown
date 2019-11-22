@@ -26,7 +26,7 @@
 
 #### Select Install Type
 
-#### Disk Paritioning
+#### Disk Partitioning
 
 #### Initial User Account
 
