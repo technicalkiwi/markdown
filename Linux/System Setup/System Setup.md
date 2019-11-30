@@ -60,15 +60,40 @@ Add Git Username
 Add Git Email Address
 `git config --global user.email "your_email@example.com"`
 
-Set Default Git editor (Nano)
+Set Default Git Editor (Nano)
 `git config --global core.editor "nano -w"`
-
-
-
 
 
 #### Setup SSH
 
+Set SSH to run at startup
+`systemctl enable ssh`
+
+Start SSH
+`systemctl start ssh`
+
+Check SSH is running
+`systemctl status ssh`
+![SSH Running](./resources/SSH_running.png)
+
 #####  Edit SSH Config
+We are just going to change the basics, for a more comprehensive guide look at [SSH Setup](/Linux/Application-Setup/SSH/Configuring_SSH.md)
+
+Open the SSH config File
+`nano /etc/ssh/sshd_config`
+
+Find the Following lines and change them accordingly
+
+Change the port number
+`port xxxx`
+
+Enable Pubkey Authentication
+`PubkeyAuthentication yes`
+
+Check Authorized Key Location
+`AuthorizedKeysFile ~/.ssh/authorized_keys`
+
+Disable Root login
+`PermitRootlogon no` 
 
 ##### Add SSH Pubkey
