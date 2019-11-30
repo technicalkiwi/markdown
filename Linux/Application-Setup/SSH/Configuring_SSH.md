@@ -56,6 +56,8 @@ Once you have confirmed you can log in using the Key, set the following in the S
 
 #### Usefull SSH Tools
 
+- [SSH Config Options](https://www.ssh.com/ssh/sshd_config/#sec-Common-configuration-options-for-individual-use) - Full list of all SSH config options and their purpose.
+
 - [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page) - Scans log files and bans IPs that show the malicious signs  
 - [Deny Hosts](https://www.cyberciti.biz/faq/block-ssh-attacks-with-denyhosts/) - Is intended to prevent brute force attacks on SSH servers by monitoring invalid login attempts in the authentication log and blocking the originating IP addresses.
 - [Geo Ip](http://www.randomdevstuff.com/location-based-ssh-access-using-geoip/) - Each time an external connection is initiated, the script will be executed to identify the region. If the region is not in the allowed list the connection will be dropped
