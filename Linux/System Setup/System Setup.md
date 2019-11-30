@@ -54,6 +54,19 @@ Basic Packages include
 
 #### Setup Git
 
+Add Git Username
+`git config --global user.name "User Name"`
+
+Add Git Email Address
+`git config --global user.email "your_email@example.com"`
+
+Set Default Git editor (Nano)
+`git config --global core.editor "nano -w"`
+
+
+
+
+
 #### Setup SSH
 
 #####  Edit SSH Config
