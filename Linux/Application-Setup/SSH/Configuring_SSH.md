@@ -46,6 +46,8 @@ Open the authorized_keys file
 Add in your Pubkey string  
 ![Pubkey in Authorized Key File](./resources/authorized_keys.png)
 Save and close the file  
+Resart the SSH daemon
+`systemctl restart ssh`
 Test connection using Key Based Authentication.
 ![Key Login Test](./resources/key_login.png)
 

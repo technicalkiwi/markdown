@@ -84,16 +84,30 @@ Open the SSH config File
 
 Find the Following lines and change them accordingly
 
-Change the port number
+- Change the port number
 `port xxxx`
 
-Enable Pubkey Authentication
+- Enable Pubkey Authentication
 `PubkeyAuthentication yes`
 
-Check Authorized Key Location
+- Check Authorized Key Location
 `AuthorizedKeysFile ~/.ssh/authorized_keys`
 
-Disable Root login
+- Disable Root login
 `PermitRootlogon no` 
 
+Save and close the Config file
+Restart the SSH daemon
+`systemctl restart ssh`
+
 ##### Add SSH Pubkey
+
+Open the authorized_keys file
+`nano ~/.ssh/authorized_keys`  
+Add in your Pubkey string  
+![Pubkey in Authorized Key File](/Linux/Application-Setup/ssh/resources/authorized_keys.png)
+Save and close the file  
+Test connection using Key Based Authentication.
+![Key Login Test](/Linux/Application-Setup/ssh/resources/key_login.png)
+
+
