@@ -19,7 +19,7 @@
 
 #### Web_Server
 - [Nginx](./Linux/Web_Server/Nginx)
-- [SSL_Certs]((./Linux/Web_Server/SSL_Certs)
+- [SSL_Certs](./Linux/Web_Server/SSL_Certs)
 
 ### Project Planning
 - [Planning Template](./Project-Planning-Template.md)
