@@ -4,11 +4,12 @@
 
 ### Linux
 #### Application Setup
-- [Docker](./Linux/Application-Setup/Docker/)
-- [FTP](./Linux/Application-Setup/FTP/)
-- [Nagios](./Linux/Application-Setup/Nagios/)
-- [Nginx](./Linux/Application-Setup/Nginx/)
-- [SSH](./Linux/Application-Setup/SSH/)
+- [Docker](./Linux/Application_Setup/Docker/)
+- [FTP](./Linux/Application_Setup/FTP/)
+- [Nagios](./Linux/Application_Setup/Nagios/)
+- [Nginx](./Linux/Application_Setup/Nginx/)
+- [SSH](./Linux/Application_Setup/SSH/)
+- [Wire Guard](./Linux/Application_Setup/Wireguard/)
 
 #### Security
 - [Login Alerts](./Linux/Security/Login_Notifications)
@@ -22,5 +23,5 @@
 - [SSL_Certs](./Linux/Web_Server/SSL_Certs)
 
 ### Project Planning
-- [Planning Template](./Project-Planning-Template.md)
-- [Proposal Template](./Project-Proposal-Template.md)
+- [Planning Template](./Project_Planning-Template.md)
+- [Proposal Template](./Project_Proposal-Template.md)
