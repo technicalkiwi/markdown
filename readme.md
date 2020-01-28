@@ -5,11 +5,11 @@
 ### Linux
 #### Application Setup
 - [Docker](./Linux/Application_Setup/Docker/)
-- [FTP](./Linux/Application_Setup/FTP/)
+- [FTP](./Linux/Application_Setup/FTP/installing-ftp.md)
 - [Nagios](./Linux/Application_Setup/Nagios/)
 - [Nginx](./Linux/Application_Setup/Nginx/)
-- [SSH](./Linux/Application_Setup/SSH/)
-- [Wire Guard](./Linux/Application_Setup/Wireguard/)
+- [SSH](./Linux/Application_Setup/SSH/Configuring-SSH.md)
+- [Wire Guard](./Linux/Application_Setup/Wireguard/Installing-Wireguard-Server.md)
 
 #### Security
 - [Login Alerts](./Linux/Security/Login_Notifications)
